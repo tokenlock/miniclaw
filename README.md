@@ -67,11 +67,18 @@ pip install -r requirements.txt
 ```
 
 ### 3. 配置 API 密钥
-编辑环境变量自行配置
+- 编辑环境变量配置大模型API参数
 ```
-model
-api_key
-base_url
+export GEMINI_API_KEY="xxxxxxxxxxx"
+export LLM_BASE_URL="https://gateway.ai.cloudflare.com/v1/xxx/xxx/compat"
+```
+-  编辑环境变量配置微信参数
+```
+微信参数来自来自openclaw-weixin扫码后存放的参数
+本项目暂不支持直接扫码接入(Todo)
+export WECHAT_BASE_URL="https://ilinkai.weixin.qq.com"
+export WECHAT_TOKEN="xxxxxxxxx@im.bot:xxxxxxxxxxxxxxx"
+export WECHAT_USER_ID="xxxxxxxxxxxxxxxxxxxx@im.wechat"
 ```
 
 ### 4. 启动
@@ -99,6 +106,7 @@ python main.py
 
 ## 📡 Todo
 -  加入图像等文件传输支持 
+-  加入简单定时任务支持 
 ---
 
 ## 📄 License
