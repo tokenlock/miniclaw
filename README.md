@@ -1,10 +1,10 @@
-# MiniClaw - 微信 AI 聊天机器人
+# TokenBot - 微信 AI 聊天机器人
 轻量化微信 AI 助手 | 支持自然对话 + 斜杠命令
 
 ---
 
 ## 🤖 项目介绍
-MiniClaw 是一个专为微信打造的轻量化 AI 聊天机器人框架，基于模块化设计，可快速接入大语言模型（Gemini、GPT 等）。参考微信官方openclaw-weixin 整理的python接口，用于自己接入模型。推荐使用Cloudflare AI Gateway作为baseurl。
+TokenBot 是一个专为微信打造的轻量化 AI 聊天机器人框架，基于模块化设计，可快速接入大语言模型（Gemini、GPT 等）。参考微信官方openclaw-weixin 整理的python接口，用于自己接入模型。推荐使用Cloudflare AI Gateway作为baseurl。
 
 - 自然语言对话交互
 - 自定义斜杠 `/` 命令系统
@@ -43,7 +43,7 @@ MiniClaw 是一个专为微信打造的轻量化 AI 聊天机器人框架，基�
 
 ## 📁 项目结构
 ```
-miniclaw/
+tokenbot/
 ├── main.py          # 程序主入口、交互与命令处理
 ├── bot.py           # 微信消息接收与发送
 ├── chat.py          # 大语言模型交互
@@ -57,8 +57,8 @@ miniclaw/
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/tokenlock/miniclaw.git
-cd miniclaw
+git clone https://github.com/tokenlock/TokenBot.git
+cd TokenBot
 ```
 
 ### 2. 安装依赖
